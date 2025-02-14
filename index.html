@@ -7,11 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <style>
+        html,body{
+            overflow-x: hidden;
+        }
         body {
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            overflow-x: hidden;
+            
         }
 
         nav {
@@ -108,6 +111,7 @@
             max-width: 1140px;
             margin:0 auto;
             padding: 0 20px;
+            box-sizing: border-box;
         }
 
 
@@ -267,8 +271,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  
     .container{
-        width:90%;
+        max-width:90%;
         margin:0 auto;
     }
     .grid-3,.grid-2,.header-grid{
