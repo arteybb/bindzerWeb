@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
       * {
   box-sizing: border-box;
+  font-family: kanit;
 }
     body {
         margin: 0;
@@ -16,6 +20,11 @@
         font-family: sans-serif;
     }
 
+    .about-wrapper{
+        position: relative;
+
+       
+    }
 
         nav {
             
@@ -80,7 +89,7 @@
             width:100%;
             background-color: #fff;
 
-            min-height:800px;
+            height:1000px;
             position: relative;
             overflow: hidden;
         }
@@ -89,9 +98,9 @@
             background-color: blue;
             top:0px;
             left:-40px;
-            width:4500px;
+            min-width:4000px;
             height:800px;
-            transform: rotate(10deg);
+            transform: rotate(5deg);
             z-index: 1;
         }
         .header-item-text{
@@ -190,6 +199,9 @@
         .header-item-img{
             text-align: center;
         }
+        .header-item-img img{
+          
+        }
 
 
         .swiper.marquee-swiper {
@@ -223,7 +235,9 @@
     display:grid;
     grid-template-columns: 100px 1fr;
 }
-
+.about-wrapper{
+    
+}
 .career-tab{
     border-bottom:1px solid #ccc;
     padding-bottom:10px;
@@ -296,19 +310,25 @@
     .nav-menu{
         display: none;
     }
+    
 
    
     .about-inner{
+        top:100px;
         position: relative;
+       
        
     }
     .about-item-text{
         margin-top:100px;
     }
+    .our-item-text{
+        text-align: center;
+    }
 }
 
 .about-head{
-    padding-bottom:200px;max-width:550px;text-align: center;margin:0 auto;
+    padding-bottom:100px;max-width:550px;text-align: center;margin:0 auto;
 }
 .about-group-img{
     padding:30px;
@@ -421,7 +441,7 @@
                         </p>
                     </div>
                     <div class="header-item-img">
-                            <img style="width:300px;" src="https://media.discordapp.net/attachments/1313766074138890311/1342067464707768382/example.png?ex=67b84939&is=67b6f7b9&hm=94ad68dbeff55838471c8b6a5f1d3a46b63cabc128a3b89cbcdbacb67724c872&=&format=webp&quality=lossless&width=702&height=702" alt="">
+                            <img style="width:90%" src="https://cdn.discordapp.com/attachments/1313766074138890311/1342069818064502814/banner.png?ex=67be3a2b&is=67bce8ab&hm=82d4b21391922b5de6bd6e490eff9ac65d15d127bb8db9467749e11051712a1b&" alt="">
                     </div>
                 </div>
                </div>
